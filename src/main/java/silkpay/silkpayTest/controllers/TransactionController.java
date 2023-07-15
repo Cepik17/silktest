@@ -9,7 +9,7 @@ import silkpay.silkpayTest.dtos.TransactionView;
 import silkpay.silkpayTest.services.TransactionService;
 
 @RestController
-@RequestMapping("api/transaction")
+@RequestMapping("/api/transaction")
 @RequiredArgsConstructor
 public class TransactionController {
 
